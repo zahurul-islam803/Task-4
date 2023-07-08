@@ -1,5 +1,5 @@
 /* common css */
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -23,9 +23,9 @@ body {
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.header-info{
+.header-info {
   text-align: right;
   padding: 140px 210px 155px 460px;
 }
@@ -39,4 +39,73 @@ body {
   font-weight: 400;
   line-height: 26px;
   margin-top: 24px;
+}
+/* banner section css */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.banner-header,
+.plans-header {
+  color: #151414;
+  font-size: 20px;
+  font-weight: 700;
+}
+.banner-desc {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.banner-img {
+  width: 30px;
+}
+.banner-info {
+  padding: 120px 0px 40px 500px;
+  width: 40%;
+}
+.banner-header,
+.banner-desc,
+.list {
+  margin-top: 10px;
+}
+ul li {
+  list-style-type: none;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.icon {
+  color: #16d887;
+  margin-right: 5px;
+}
+/* plans section css */
+.plans-info {
+  display: flex;
+  justify-content: space-around;
+}
+.plans-header {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.item-header {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.plans-desc {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.plans-item{
+  text-align: center;
 }
