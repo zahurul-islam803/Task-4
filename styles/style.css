@@ -111,8 +111,9 @@ ul li {
 }
 
 /* contact css */
-.contact-container{
-  background-image: url("../images/gradient2.png"), url("../images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+.contact-container {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 50px 5px;
@@ -135,6 +136,49 @@ ul li {
   font-weight: 600;
   padding: 10px;
 }
-.contact-info{
+.contact-info {
   padding-left: 20px;
+}
+/* footer section css */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background: #151414;
+  gap: 20px;
+  padding: 40px 5px 60px 5px;
+}
+.title-future {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.future-desc {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.address {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.sub-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.input-email {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #151414;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.icon-img{
+  margin-top: 20px;
+  width: 30px;
+  padding: 10px;
 }
